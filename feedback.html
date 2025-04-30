@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback | SpeedStar Motors</title>
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>SpeedStar Motors</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="products.html">Our Products</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h3>Your Trusted Car Dealership and Auto Services</h3>
+            <p>Find your best deals on new and used cars.</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="feedback-container">
+            <h2>We Value Your Feedback</h2>
+            <p class="feedback-intro">Your feedback helps us improve our services and better serve our customers.</p>
+            
+            <form class="form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Your Name: </label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Your Email: </label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="feedback">Your Feedback: </label>
+                    <textarea style="font-family: sans-serif;" id="feedback" name="feedback" placeholder="Share your thoughts with us" required></textarea>
+                    <span class="feedback" id="feedback error"></span>
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit Feedback</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2025 SpeedStar Motors. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
